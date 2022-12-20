@@ -12,10 +12,10 @@ namespace SimpleFactory
         {
             switch (name)
             {
-                case "A":return new Abstract_A();
-                case "B":return new Abstract_B();
-                case "C":return new Abstract_C();
-                default: return new Abstract_A();
+                case "A":return new Product_A();
+                case "B":return new Product_B();
+                case "C":return new Product_C();
+                default: return new Product_A();
             }
         }
     }

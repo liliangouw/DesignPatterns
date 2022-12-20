@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleFactory
 {
-    public class Abstract_B : AbstractProduct
+    public class Product_C : AbstractProduct
     {
         public override void GetName()
         {
