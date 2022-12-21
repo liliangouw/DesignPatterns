@@ -8,10 +8,6 @@ namespace SimpleFactory
 {
     public abstract class AbstractProduct
     {
-        public string ProductName { get; set; }
-
-        public decimal Price { get; set; }
-
         public abstract void GetName();
     }
 }

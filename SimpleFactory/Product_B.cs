@@ -10,7 +10,7 @@ namespace SimpleFactory
     {
         public override void GetName()
         {
-            Console.WriteLine($"我是{System.Reflection.MethodBase.GetCurrentMethod().DeclaringType.Name}");
+            Console.WriteLine("我是Product_B");
         }
     }
 }
