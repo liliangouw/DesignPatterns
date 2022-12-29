@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{9ABF9F58-F46D-443E-9930-E02504DBCE7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ABF9F58-F46D-443E-9930-E02504DBCE7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ABF9F58-F46D-443E-9930-E02504DBCE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ABF9F58-F46D-443E-9930-E02504DBCE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ABF9F58-F46D-443E-9930-E02504DBCE7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
