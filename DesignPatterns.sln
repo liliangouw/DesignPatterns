@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{7ADCCA3D-977D-4762-963D-6D9908BDC004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{932B0813-4B91-4499-B970-1579A8583EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{932B0813-4B91-4499-B970-1579A8583EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{273F08CE-78EF-458D-A4C7-E7C9DA2F7FF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{273F08CE-78EF-458D-A4C7-E7C9DA2F7FF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0023AD6D-9C7E-4DE8-9281-F1F60FFF1027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBB7283-A6B1-48A4-9A9A-0ADDDDB4D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
