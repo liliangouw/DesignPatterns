@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memeto", "Memeto\Memeto.csproj", "{F585416B-BE62-4D31-AE0D-0AD6ECB3FB1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObServer", "ObServer\ObServer.csproj", "{ED1AE0F7-6A2B-40E6-A308-048EA8D5F878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F585416B-BE62-4D31-AE0D-0AD6ECB3FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F585416B-BE62-4D31-AE0D-0AD6ECB3FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F585416B-BE62-4D31-AE0D-0AD6ECB3FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1AE0F7-6A2B-40E6-A308-048EA8D5F878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1AE0F7-6A2B-40E6-A308-048EA8D5F878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1AE0F7-6A2B-40E6-A308-048EA8D5F878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1AE0F7-6A2B-40E6-A308-048EA8D5F878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
