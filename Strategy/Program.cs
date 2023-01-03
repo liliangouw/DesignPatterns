@@ -11,6 +11,7 @@
             context.ContextInferface();
             context = new Context(new ConcreteStrategyC());
             context.ContextInferface();
+            Console.ReadKey();
         }
     }
 }
